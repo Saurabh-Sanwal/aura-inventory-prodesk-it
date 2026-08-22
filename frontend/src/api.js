@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://aura-inventory-prodesk-it.onrender.com";
 
 export async function fetchInventory({ page, limit, search, category, sort }) {
   const params = new URLSearchParams({
